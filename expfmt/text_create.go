@@ -157,7 +157,7 @@ func MetricFamilyToText(out io.Writer, in *dto.MetricFamily) (written int, err e
 		metricTime := metric.GetTimestampMs()
 		nowTime = time.Now().Unix()
 		if metricTime == 0 || metricTime/1000 <= nowTime-30 {
-			continue;
+			continue
 		}
 		switch metricType {
 		case dto.MetricType_COUNTER:
