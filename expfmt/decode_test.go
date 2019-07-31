@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
 	dto "github.com/JammyT/client_model/go"
+	"github.com/golang/protobuf/proto"
 
 	"github.com/JammyT/common/model"
 )
