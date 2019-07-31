@@ -24,7 +24,7 @@ import (
 
 	"github.com/JammyT/common/model"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/JammyT/client_model/go"
 )
 
 // enhancedWriter has all the enhanced write functions needed here. bytes.Buffer

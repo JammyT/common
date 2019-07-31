@@ -20,7 +20,7 @@ import (
 	"mime"
 	"net/http"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/JammyT/client_model/go"
 
 	"github.com/JammyT/common/model"
 	"github.com/matttproud/golang_protobuf_extensions/pbutil"

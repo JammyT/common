@@ -16,7 +16,7 @@ package expfmt
 import (
 	"bytes"
 	"github.com/golang/protobuf/proto"
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/JammyT/client_model/go"
 	"net/http"
 	"testing"
 )

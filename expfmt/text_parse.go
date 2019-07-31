@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/JammyT/client_model/go"
 
 	"github.com/JammyT/common/model"
 	"github.com/golang/protobuf/proto"
